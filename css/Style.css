@@ -163,6 +163,8 @@ form h6{
 }
 
 form .form-group{
+    display: flex;
+    justify-content: space-between;
     text-align: left;
     border: 1px solid var(--border-color);
     margin-top: .9rem;
@@ -184,8 +186,11 @@ form input:focus{
 }
 
 form .input-icon{
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--border-color);
+    padding: 10px;
 }
 
 form .btn-login{
